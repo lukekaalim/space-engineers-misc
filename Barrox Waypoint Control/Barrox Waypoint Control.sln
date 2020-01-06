@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barrox Waypoint Control", "Barrox Waypoint Control.csproj", "{466DDA53-606D-46B0-9FC4-F76DC7A92A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONParserTests", "..\JSONParserTests\JSONParserTests.csproj", "{B9E12B2B-1CE8-4FFC-B451-0012DAB124AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEJSONParser", "..\SEJSONParser\SEJSONParser.csproj", "{A2BCD073-8B15-4808-8539-0B7054225679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreedleDroneAI", "..\GreedleDroneAI\GreedleDroneAI.csproj", "{1D8020FF-3D56-4C10-9B31-EF848735D292}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{466DDA53-606D-46B0-9FC4-F76DC7A92A36}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{466DDA53-606D-46B0-9FC4-F76DC7A92A36}.Debug|x64.ActiveCfg = Debug|x64
+		{466DDA53-606D-46B0-9FC4-F76DC7A92A36}.Debug|x64.Build.0 = Debug|x64
+		{466DDA53-606D-46B0-9FC4-F76DC7A92A36}.Release|Any CPU.ActiveCfg = Debug|x64
+		{466DDA53-606D-46B0-9FC4-F76DC7A92A36}.Release|Any CPU.Build.0 = Debug|x64
+		{466DDA53-606D-46B0-9FC4-F76DC7A92A36}.Release|x64.ActiveCfg = Debug|x64
+		{466DDA53-606D-46B0-9FC4-F76DC7A92A36}.Release|x64.Build.0 = Debug|x64
+		{B9E12B2B-1CE8-4FFC-B451-0012DAB124AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E12B2B-1CE8-4FFC-B451-0012DAB124AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E12B2B-1CE8-4FFC-B451-0012DAB124AB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B9E12B2B-1CE8-4FFC-B451-0012DAB124AB}.Debug|x64.Build.0 = Debug|Any CPU
+		{B9E12B2B-1CE8-4FFC-B451-0012DAB124AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E12B2B-1CE8-4FFC-B451-0012DAB124AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9E12B2B-1CE8-4FFC-B451-0012DAB124AB}.Release|x64.ActiveCfg = Release|Any CPU
+		{B9E12B2B-1CE8-4FFC-B451-0012DAB124AB}.Release|x64.Build.0 = Release|Any CPU
+		{A2BCD073-8B15-4808-8539-0B7054225679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BCD073-8B15-4808-8539-0B7054225679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BCD073-8B15-4808-8539-0B7054225679}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A2BCD073-8B15-4808-8539-0B7054225679}.Debug|x64.Build.0 = Debug|Any CPU
+		{A2BCD073-8B15-4808-8539-0B7054225679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BCD073-8B15-4808-8539-0B7054225679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2BCD073-8B15-4808-8539-0B7054225679}.Release|x64.ActiveCfg = Release|Any CPU
+		{A2BCD073-8B15-4808-8539-0B7054225679}.Release|x64.Build.0 = Release|Any CPU
+		{1D8020FF-3D56-4C10-9B31-EF848735D292}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{1D8020FF-3D56-4C10-9B31-EF848735D292}.Debug|x64.ActiveCfg = Debug|x64
+		{1D8020FF-3D56-4C10-9B31-EF848735D292}.Debug|x64.Build.0 = Debug|x64
+		{1D8020FF-3D56-4C10-9B31-EF848735D292}.Release|Any CPU.ActiveCfg = Debug|x64
+		{1D8020FF-3D56-4C10-9B31-EF848735D292}.Release|Any CPU.Build.0 = Debug|x64
+		{1D8020FF-3D56-4C10-9B31-EF848735D292}.Release|x64.ActiveCfg = Debug|x64
+		{1D8020FF-3D56-4C10-9B31-EF848735D292}.Release|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92B7E389-4380-4FC1-B575-B32BCF529815}
+	EndGlobalSection
+EndGlobal
